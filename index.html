@@ -701,6 +701,31 @@
                             <h2 style={{marginBottom: '15px', color: '#4E3261', fontFamily: "'Roboto Condensed', sans-serif"}}>
                                 Wgraj plik CSV z zamówieniami
                             </h2>
+                            <p style={{
+                                fontSize: '14px',
+                                color: '#7f8c8d',
+                                marginBottom: '20px',
+                                lineHeight: '1.6'
+                            }}>
+                                Plik CSV pobierz z panelu IdoSell: <a 
+                                    href="https://purles.pl/panel/app/orders-csv.php" 
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    style={{
+                                        color: '#4E3261',
+                                        fontWeight: '600',
+                                        textDecoration: 'none',
+                                        borderBottom: '2px solid #4E3261',
+                                        transition: 'opacity 0.2s'
+                                    }}
+                                    onMouseOver={(e) => e.target.style.opacity = '0.7'}
+                                    onMouseOut={(e) => e.target.style.opacity = '1'}
+                                >
+                                    orders-csv.php
+                                </a>
+                                <br />
+                                Zaznacz cały potrzebny okres (np. od 01.09.2025)
+                            </p>
                             <label htmlFor="file-upload" className="upload-button">
                                 Wybierz plik CSV
                             </label>
